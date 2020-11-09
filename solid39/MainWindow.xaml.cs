@@ -25,7 +25,7 @@ namespace solid39
         public MainWindow()
         {
             InitializeComponent();
-            this.check1.Click += check1_Click_1;// רישום לאירוע של נעשה אוטומטית
+            this.check1.Click += check1_Click_1;// רישום לאירוע שלא נעשה אוטומטית
 
         }
 

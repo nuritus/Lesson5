@@ -46,7 +46,7 @@ namespace solid50
                     break;
             }
 
-            myCanvas.Children.Add(r);
+           // myCanvas.Children.Add(r);
 
             Point p = Mouse.GetPosition(myCanvas);
             Canvas.SetTop(r, p.Y);
